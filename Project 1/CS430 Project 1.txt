@@ -1,0 +1,21 @@
+CS430 Project 1
+Prompt:
+Answer the following questions. Source code should be organized, easy to read, and commented sufficiently. You should submit a word document answering the questions (1 point each for 5 points), any source code files (70 points), and a report discussing your implementation (25 points). Note: the programming rubric is out of 100 points. I will follow this then multiply the result by .7 for your programming points.
+
+1. Edgar Allen Poe's 1843 short story, "The Gold Bug", features a cryptanalytic attack. 
+What type of cipher is broken and how? 
+What happens as a result of this cryptanalytic success? 
+2. Find the plaintext and the key of the following ciphertext. Hint: the key is a shift of the alphabet, n.
+CSYEVIXIVQMREXIH
+3. Write a program to help an analyst decrypt a simple substitution cipher. Your program should take the ciphertext as input, compute letter frequency counts, and display these for the analyst. The program should then allow the analyst to guess a key and display the results of the corresponding "decryption" with the putative key.
+4. Use this program to determine the plaintext and key for the ciphertext that appears in the following Alice in Wonderland quote:
+MXDXBVTZWVMXNSPBQXLIMSCCSGXSCJXBOVQXCJZMOJZCVCTVWJCZAAXZBCSSCJXBQCJZCOJZCNSPOXBXSBTVWJCJZDXGXXMOZQMSCSCJXBOVQXCJZMOJZCNSPJZHGXXMOSPLHJZDXZAAXZBXHCSCJXTCSGXSCJXBOVQX
+
+5. Decrypt the ciphertext:
+
+IAUTMOCSMNIMREBOTNELSTRHEREOAEVMWIH
+TSEEATMAEOHWHSYCEELTTEOHMUOUFEHTRFT
+This message was encrypted with a double transposition (of the type discussed in the text) using a matrix of 7 rows and 10 columns.
+
+Hint: The first word is "there." Put the ciphertext in a 7 x 10 array. Then the letters of "there" will all appear (in scrambled order) in one row. This gives a start on the column permutation. Once the column perms are known, the row perms are easily determined.
+
